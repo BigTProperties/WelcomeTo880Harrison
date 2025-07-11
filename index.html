@@ -6,101 +6,68 @@
 <title>880 Harrison Directory</title>
 <style>
   body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
     text-align: center;
-    padding: 40px;
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    color: white;
   }
 
-  header img {
-    height: 150px; /* adjust as needed */
-    display: block;
-    margin: 0 auto 30px;
+  #logo {
+    width: 200px; /* adjust this to make the logo bigger or smaller */
+    margin-top: 30px;
   }
 
   h1 {
     font-size: 48px;
-    margin-bottom: 20px;
-    color: #333;
+    margin: 20px 0;
   }
 
-  p {
-    font-size: 28px;
-    margin-bottom: 30px;
-    color: #444;
-  }
-
-  select {
+  label, select, button {
     font-size: 24px;
+    margin: 10px;
+  }
+
+  select, button {
     padding: 10px 20px;
     border-radius: 8px;
-    border: 1px solid #aaa;
-  }
-
-  .tenant-list {
-    margin: 40px auto;
-    font-size: 24px;
-    line-height: 1.6;
-    color: #222;
-    max-width: 600px;
-    background: #fafafa;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    border: none;
   }
 
   button {
-    font-size: 24px;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border: none;
-    background-color: #007acc;
-    color: white;
-    border-radius: 8px;
+    background-color: #ffffff;
+    color: #4facfe;
     cursor: pointer;
+    transition: background-color 0.3s;
   }
 
   button:hover {
-    background-color: #005fa3;
+    background-color: #e0e0e0;
   }
 </style>
 </head>
 <body>
-  <header>
-    <img src="880_Harrison_Logo.png" alt="880 Harrison Logo">
-    <h1>Welcome to 880 Harrison</h1>
-  </header>
-  <p>Where do you need to go?</p>
-
+  <img src="880_Harrison_Logo.png" id="logo" alt="880 Harrison Logo">
+  <h1>Welcome to 880 Harrison</h1>
+  <p style="font-size: 28px;">Where do you need to go?</p>
   <select id="tenantSelect">
-    <option value="">-- Select a tenant --</option>
-    <option value="tenant1">Tenant 1</option>
-    <option value="tenant2">Tenant 2</option>
-    <option value="tenant3">Tenant 3</option>
-    <!-- Add real tenant names here -->
+    <option value="">Select a tenant</option>
+    <option value="tenant1.html">Tenant 1</option>
+    <option value="tenant2.html">Tenant 2</option>
+    <option value="tenant3.html">Tenant 3</option>
   </select>
-
   <button onclick="goToTenant()">Go</button>
 
-  <div class="tenant-list">
-    <strong>Directory:</strong><br>
-    Tenant 1 – Suite 101<br>
-    Tenant 2 – Suite 203<br>
-    Tenant 3 – Suite 305<br>
-    <!-- Add the full list here -->
-  </div>
-
-<script>
-function goToTenant() {
-  const selected = document.getElementById('tenantSelect').value;
-  if(selected) {
-    // Replace these with the real floor plan URLs or anchors
-    window.location.href = selected + ".html";
-  } else {
-    alert("Please select a tenant.");
-  }
-}
-</script>
-
+  <script>
+    function goToTenant() {
+      const selected = document.getElementById('tenantSelect').value;
+      if (selected) {
+        window.location.href = selected;
+      } else {
+        alert("Please select a tenant.");
+      }
+    }
+  </script>
 </body>
 </html>
