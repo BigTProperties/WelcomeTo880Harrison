@@ -1,0 +1,79 @@
+<!-- tenant.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tenant Page</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      padding: 40px;
+      background-color: #f5f5f5;
+      color: #333;
+      text-align: center;
+    }
+    h1 {
+      color: #4a90e2;
+    }
+    img {
+      max-width: 90%;
+      margin: 20px auto;
+      border-radius: 12px;
+      display: block;
+    }
+    button {
+      margin-top: 40px;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      background-color: #4a90e2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #357ab8;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="tenantName"></h1>
+  <p id="tenantLocation"></p>
+  <p id="tenantDescription"></p>
+  <img id="floorplanImg" alt="Floorplan" />
+  <img id="photo1" alt="Room Photo 1" />
+  <img id="photo2" alt="Room Photo 2" />
+  <button onclick="goHome()">&larr; Back to Home</button>
+
+  <script>
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    function goHome() {
+      window.location.href = "index.html";
+    }
+
+    const tenantName = getQueryParam("name");
+
+    fetch("tenants.json")
+      .then(response => response.json())
+      .then(data => {
+        const tenant = data[tenantName];
+        if (!tenant) {
+          document.body.innerHTML = "<h1>Tenant not found</h1><button onclick='goHome()'>Back</button>";
+          return;
+        }
+
+        document.getElementById("tenantName").textContent = tenant.displayName;
+        document.getElementById("tenantLocation").textContent = "Location: " + tenant.location;
+        document.getElementById("tenantDescription").textContent = tenant.description;
+        document.getElementById("floorplanImg").src = tenant.floorplan;
+        document.getElementById("photo1").src = tenant.photo1;
+        document.getElementById("photo2").src = tenant.photo2;
+      });
+  </script>
+</body>
+</html>
