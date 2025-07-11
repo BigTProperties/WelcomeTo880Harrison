@@ -6,54 +6,75 @@
   <title>880 Harrison</title>
   <style>
     body {
-      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #4a90e2, #50e3c2);
+      color: #fff;
       text-align: center;
-      padding: 20px;
     }
-    img.logo {
-      width: 150px;
-      margin-bottom: 10px;
+    header {
+      padding: 40px 20px 20px;
     }
-    #floorplan {
-      display: none;
-      margin-top: 20px;
-      width: 80%;
-      max-width: 600px;
+    header img {
+      height: 150px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    main {
+      margin-top: 40px;
+    }
+    select {
+      padding: 10px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: none;
+    }
+    button {
+      padding: 10px 20px;
+      margin-left: 10px;
+      font-size: 1em;
+      border: none;
+      border-radius: 5px;
+      background-color: #fff;
+      color: #4a90e2;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #e0e0e0;
     }
   </style>
 </head>
 <body>
-  <div style="text-align: center; margin-top: 20px;">
-    <img src="880_Harrison_Logo.png" alt="880 Harrison Logo" style="height: 150px;">
+  <header>
+    <img src="880_Harrison_Logo.png" alt="880 Harrison Logo">
     <h1>Welcome to 880 Harrison</h1>
-  </div>
-
-  <p>Where do you need to go?</p>
-  <select id="tenantSelect">
-    <option value="">-- Select a tenant --</option>
-    <option value="tenant1">Tenant 1</option>
-    <option value="tenant2">Tenant 2</option>
-    <option value="tenant3">Tenant 3</option>
-  </select>
-
-  <div id="floorplanContainer">
-    <img id="floorplan" src="" alt="Floor plan with tenant highlighted">
-  </div>
-
+  </header>
+  <main>
+    <p>Where do you need to go?</p>
+    <select id="tenantSelect">
+      <option value="">-- Select a tenant --</option>
+      <option value="Tenant1">Tenant 1</option>
+      <option value="Tenant2">Tenant 2</option>
+      <option value="Tenant3">Tenant 3</option>
+      <!-- add more tenants here -->
+    </select>
+    <button onclick="goToTenant()">Go</button>
+  </main>
   <script>
-    const tenantSelect = document.getElementById('tenantSelect');
-    const floorplan = document.getElementById('floorplan');
-
-    tenantSelect.addEventListener('change', function() {
-      const selectedTenant = this.value;
-      if (selectedTenant) {
-        // Replace these with actual floor plan images you want to show
-        floorplan.src = selectedTenant + '.png';
-        floorplan.style.display = 'block';
+    function goToTenant() {
+      var tenant = document.getElementById("tenantSelect").value;
+      if (tenant) {
+        window.location.href = tenant + ".html";
       } else {
-        floorplan.style.display = 'none';
+        alert("Please select a tenant.");
       }
-    });
+    }
   </script>
 </body>
 </html>
