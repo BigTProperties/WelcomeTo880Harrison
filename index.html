@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>880 Harrison</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    img.logo {
+      width: 150px;
+      margin-bottom: 10px;
+    }
+    #floorplan {
+      display: none;
+      margin-top: 20px;
+      width: 80%;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="880 Harrison Logo" class="logo">
+  <h1>Welcome to 880 Harrison</h1>
+
+  <p>Where do you need to go?</p>
+  <select id="tenantSelect">
+    <option value="">-- Select a tenant --</option>
+    <option value="tenant1">Tenant 1</option>
+    <option value="tenant2">Tenant 2</option>
+    <option value="tenant3">Tenant 3</option>
+  </select>
+
+  <div id="floorplanContainer">
+    <img id="floorplan" src="" alt="Floor plan with tenant highlighted">
+  </div>
+
+  <script>
+    const tenantSelect = document.getElementById('tenantSelect');
+    const floorplan = document.getElementById('floorplan');
+
+    tenantSelect.addEventListener('change', function() {
+      const selectedTenant = this.value;
+      if (selectedTenant) {
+        // Replace these with actual floor plan images you want to show
+        floorplan.src = selectedTenant + '.png';
+        floorplan.style.display = 'block';
+      } else {
+        floorplan.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
