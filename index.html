@@ -93,14 +93,14 @@
     <button onclick="goToTenant()">Go</button>
   </main>
   <script>
-    function goToTenant() {
-      var tenant = document.getElementById("tenantSelect").value;
-      if (tenant) {
-        window.location.href = tenant + ".html";
-      } else {
-        alert("Please select a tenant.");
-      }
+  function goToTenant() {
+    var tenant = document.getElementById("tenantSelect").value;
+    if (tenant) {
+      window.location.href = "tenant.html?name=" + tenant;
+    } else {
+      alert("Please select a tenant.");
     }
-  </script>
+  }
+</script>
 </body>
 </html>
