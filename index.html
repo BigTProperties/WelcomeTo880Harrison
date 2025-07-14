@@ -97,7 +97,7 @@
   function goToTenant() {
     var tenant = document.getElementById("tenantSelect").value;
     if (tenant) {
-      window.location.href = "tenant.html?name=" + tenant;
+      window.location.href = tenant + ".html";
     } else {
       alert("Please select a tenant.");
     }
