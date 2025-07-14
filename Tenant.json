@@ -1,4 +1,3 @@
-{document.getElementById("floorplanImg").src = tenant.floorplan;}
 {
   "Tenant1": {
     "displayName": "Photo Finale",
