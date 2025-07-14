@@ -24,27 +24,188 @@
     "photo1": "images/tenant3_photo1.jpg",
     "photo2": "images/tenant3_photo2.jpg"
   },
-  "Tenant4": {"displayName": "Tenant 4", "location": "Suite 104", "description": "Description for Tenant 4.", "floorplan": "floorplans/floorplan_tenant4.png", "photo1": "images/tenant4_photo1.jpg", "photo2": "images/tenant4_photo2.jpg"},
-  "Tenant5": {"displayName": "Tenant 5", "location": "Suite 105", "description": "Description for Tenant 5.", "floorplan": "floorplans/floorplan_tenant5.png", "photo1": "images/tenant5_photo1.jpg", "photo2": "images/tenant5_photo2.jpg"},
-  "Tenant6": {"displayName": "Tenant 6", "location": "Suite 106", "description": "Description for Tenant 6.", "floorplan": "floorplans/floorplan_tenant6.png", "photo1": "images/tenant6_photo1.jpg", "photo2": "images/tenant6_photo2.jpg"},
-  "Tenant7": {"displayName": "Tenant 7", "location": "Suite 107", "description": "Description for Tenant 7.", "floorplan": "floorplans/floorplan_tenant7.png", "photo1": "images/tenant7_photo1.jpg", "photo2": "images/tenant7_photo2.jpg"},
-  "Tenant8": {"displayName": "Tenant 8", "location": "Suite 108", "description": "Description for Tenant 8.", "floorplan": "floorplans/floorplan_tenant8.png", "photo1": "images/tenant8_photo1.jpg", "photo2": "images/tenant8_photo2.jpg"},
-  "Tenant9": {"displayName": "Tenant 9", "location": "Suite 109", "description": "Description for Tenant 9.", "floorplan": "floorplans/floorplan_tenant9.png", "photo1": "images/tenant9_photo1.jpg", "photo2": "images/tenant9_photo2.jpg"},
-  "Tenant10": {"displayName": "Tenant 10", "location": "Suite 110", "description": "Description for Tenant 10.", "floorplan": "floorplans/floorplan_tenant10.png", "photo1": "images/tenant10_photo1.jpg", "photo2": "images/tenant10_photo2.jpg"},
-  "Tenant11": {"displayName": "Tenant 11", "location": "Suite 111", "description": "Description for Tenant 11.", "floorplan": "floorplans/floorplan_tenant11.png", "photo1": "images/tenant11_photo1.jpg", "photo2": "images/tenant11_photo2.jpg"},
-  "Tenant12": {"displayName": "Tenant 12", "location": "Suite 112", "description": "Description for Tenant 12.", "floorplan": "floorplans/floorplan_tenant12.png", "photo1": "images/tenant12_photo1.jpg", "photo2": "images/tenant12_photo2.jpg"},
-  "Tenant13": {"displayName": "Tenant 13", "location": "Suite 113", "description": "Description for Tenant 13.", "floorplan": "floorplans/floorplan_tenant13.png", "photo1": "images/tenant13_photo1.jpg", "photo2": "images/tenant13_photo2.jpg"},
-  "Tenant14": {"displayName": "Tenant 14", "location": "Suite 114", "description": "Description for Tenant 14.", "floorplan": "floorplans/floorplan_tenant14.png", "photo1": "images/tenant14_photo1.jpg", "photo2": "images/tenant14_photo2.jpg"},
-  "Tenant15": {"displayName": "Tenant 15", "location": "Suite 115", "description": "Description for Tenant 15.", "floorplan": "floorplans/floorplan_tenant15.png", "photo1": "images/tenant15_photo1.jpg", "photo2": "images/tenant15_photo2.jpg"},
-  "Tenant16": {"displayName": "Tenant 16", "location": "Suite 116", "description": "Description for Tenant 16.", "floorplan": "floorplans/floorplan_tenant16.png", "photo1": "images/tenant16_photo1.jpg", "photo2": "images/tenant16_photo2.jpg"},
-  "Tenant17": {"displayName": "Tenant 17", "location": "Suite 117", "description": "Description for Tenant 17.", "floorplan": "floorplans/floorplan_tenant17.png", "photo1": "images/tenant17_photo1.jpg", "photo2": "images/tenant17_photo2.jpg"},
-  "Tenant18": {"displayName": "Tenant 18", "location": "Suite 118", "description": "Description for Tenant 18.", "floorplan": "floorplans/floorplan_tenant18.png", "photo1": "images/tenant18_photo1.jpg", "photo2": "images/tenant18_photo2.jpg"},
-  "Tenant19": {"displayName": "Tenant 19", "location": "Suite 119", "description": "Description for Tenant 19.", "floorplan": "floorplans/floorplan_tenant19.png", "photo1": "images/tenant19_photo1.jpg", "photo2": "images/tenant19_photo2.jpg"},
-  "Tenant20": {"displayName": "Tenant 20", "location": "Suite 120", "description": "Description for Tenant 20.", "floorplan": "floorplans/floorplan_tenant20.png", "photo1": "images/tenant20_photo1.jpg", "photo2": "images/tenant20_photo2.jpg"},
-  "Tenant21": {"displayName": "Tenant 21", "location": "Suite 121", "description": "Description for Tenant 21.", "floorplan": "floorplans/floorplan_tenant21.png", "photo1": "images/tenant21_photo1.jpg", "photo2": "images/tenant21_photo2.jpg"},
-  "Tenant22": {"displayName": "Tenant 22", "location": "Suite 122", "description": "Description for Tenant 22.", "floorplan": "floorplans/floorplan_tenant22.png", "photo1": "images/tenant22_photo1.jpg", "photo2": "images/tenant22_photo2.jpg"},
-  "Tenant23": {"displayName": "Tenant 23", "location": "Suite 123", "description": "Description for Tenant 23.", "floorplan": "floorplans/floorplan_tenant23.png", "photo1": "images/tenant23_photo1.jpg", "photo2": "images/tenant23_photo2.jpg"},
-  "Tenant24": {"displayName": "Tenant 24", "location": "Suite 124", "description": "Description for Tenant 24.", "floorplan": "floorplans/floorplan_tenant24.png", "photo1": "images/tenant24_photo1.jpg", "photo2": "images/tenant24_photo2.jpg"},
-  "Tenant25": {"displayName": "Tenant 25", "location": "Suite 125", "description": "Description for Tenant 25.", "floorplan": "floorplans/floorplan_tenant25.png", "photo1": "images/tenant25_photo1.jpg", "photo2": "images/tenant25_photo2.jpg"},
-  "Tenant26": {"displayName": "Tenant 26", "location": "Suite 126", "description": "Description for Tenant 26.", "floorplan": "floorplans/floorplan_tenant26.png", "photo1": "images/tenant26_photo1.jpg", "photo2": "images/tenant26_photo2.jpg"}
+  "Tenant4": {
+    "displayName": "Tenant 4", 
+    "location": "Suite 104", 
+    "description": "Description for Tenant 4.",
+    "floorplan": "floorplans/floorplan_tenant4.png", 
+    "photo1": "images/tenant4_photo1.jpg", 
+    "photo2": "images/tenant4_photo2.jpg"
+  },
+  "Tenant5": {
+    "displayName": "Tenant 5",
+    "location": "Suite 105", 
+    "description": "Description for Tenant 5.", 
+    "floorplan": "floorplans/floorplan_tenant5.png",
+    "photo1": "images/tenant5_photo1.jpg", 
+    "photo2": "images/tenant5_photo2.jpg"
+  },
+  "Tenant6": {
+    "displayName": "Tenant 6", 
+    "location": "Suite 106", 
+    "description": "Description for Tenant 6.",
+    "floorplan": "floorplans/floorplan_tenant6.png",
+    "photo1": "images/tenant6_photo1.jpg",
+    "photo2": "images/tenant6_photo2.jpg"
+  },
+  "Tenant7": {
+    "displayName": "Tenant 7",
+    "location": "Suite 107", 
+    "description": "Description for Tenant 7.", 
+    "floorplan": "floorplans/floorplan_tenant7.png", 
+    "photo1": "images/tenant7_photo1.jpg", 
+    "photo2": "images/tenant7_photo2.jpg"
+  },
+  "Tenant8": {
+    "displayName": "Tenant 8", 
+    "location": "Suite 108", 
+    "description": "Description for Tenant 8.", 
+    "floorplan": "floorplans/floorplan_tenant8.png", 
+    "photo1": "images/tenant8_photo1.jpg", 
+    "photo2": "images/tenant8_photo2.jpg"
+  },
+  "Tenant9": {
+    "displayName": "Tenant 9", 
+    "location": "Suite 109", 
+    "description": "Description for Tenant 9.", 
+    "floorplan": "floorplans/floorplan_tenant9.png", 
+    "photo1": "images/tenant9_photo1.jpg", 
+    "photo2": "images/tenant9_photo2.jpg"
+  },
+  "Tenant10": {
+    "displayName": "Tenant 10",
+    "location": "Suite 110", 
+    "description": "Description for Tenant 10.", 
+    "floorplan": "floorplans/floorplan_tenant10.png",
+    "photo1": "images/tenant10_photo1.jpg", 
+    "photo2": "images/tenant10_photo2.jpg"
+  },
+  "Tenant11": {
+    "displayName": "Tenant 11", 
+    "location": "Suite 111", 
+    "description": "Description for Tenant 11.", 
+    "floorplan": "floorplans/floorplan_tenant11.png", 
+    "photo1": "images/tenant11_photo1.jpg", 
+    "photo2": "images/tenant11_photo2.jpg"
+  },
+  "Tenant12": {
+    "displayName": "Tenant 12", 
+    "location": "Suite 112", 
+    "description": "Description for Tenant 12.", 
+    "floorplan": "floorplans/floorplan_tenant12.png", 
+    "photo1": "images/tenant12_photo1.jpg", 
+    "photo2": "images/tenant12_photo2.jpg"
+  },
+  "Tenant13": {
+    "displayName": "Tenant 13", 
+    "location": "Suite 113",
+    "description": "Description for Tenant 13.",
+    "floorplan": "floorplans/floorplan_tenant13.png", 
+    "photo1": "images/tenant13_photo1.jpg", 
+    "photo2": "images/tenant13_photo2.jpg"
+  },
+  "Tenant14": {
+    "displayName": "Tenant 14",
+    "location": "Suite 114", 
+    "description": "Description for Tenant 14.",
+    "floorplan": "floorplans/floorplan_tenant14.png", 
+    "photo1": "images/tenant14_photo1.jpg",
+    "photo2": "images/tenant14_photo2.jpg"
+  },
+  "Tenant15": {
+    "displayName": "Tenant 15", 
+    "location": "Suite 115", 
+    "description": "Description for Tenant 15.",
+    "floorplan": "floorplans/floorplan_tenant15.png", 
+    "photo1": "images/tenant15_photo1.jpg", 
+    "photo2": "images/tenant15_photo2.jpg"
+  },
+  "Tenant16": {
+    "displayName": "Tenant 16", 
+    "location": "Suite 116", 
+    "description": "Description for Tenant 16.",
+    "floorplan": "floorplans/floorplan_tenant16.png", 
+    "photo1": "images/tenant16_photo1.jpg", 
+    "photo2": "images/tenant16_photo2.jpg"
+  },
+  "Tenant17": {
+    "displayName": "Tenant 17", 
+    "location": "Suite 117", 
+    "description": "Description for Tenant 17.", 
+    "floorplan": "floorplans/floorplan_tenant17.png", 
+    "photo1": "images/tenant17_photo1.jpg", 
+    "photo2": "images/tenant17_photo2.jpg"
+  },
+  "Tenant18": {
+    "displayName": "Tenant 18", 
+    "location": "Suite 118", 
+    "description": "Description for Tenant 18.", 
+    "floorplan": "floorplans/floorplan_tenant18.png", 
+    "photo1": "images/tenant18_photo1.jpg", 
+    "photo2": "images/tenant18_photo2.jpg"
+  },
+  "Tenant19": {
+    "displayName": "Tenant 19", 
+    "location": "Suite 119", 
+    "description": "Description for Tenant 19.", 
+    "floorplan": "floorplans/floorplan_tenant19.png", 
+    "photo1": "images/tenant19_photo1.jpg", 
+    "photo2": "images/tenant19_photo2.jpg"
+  },
+  "Tenant20": {
+    "displayName": "Tenant 20", 
+    "location": "Suite 120", 
+    "description": "Description for Tenant 20.", 
+    "floorplan": "floorplans/floorplan_tenant20.png",
+    "photo1": "images/tenant20_photo1.jpg", 
+    "photo2": "images/tenant20_photo2.jpg"
+  },
+  "Tenant21": {
+    "displayName": "Tenant 21", 
+    "location": "Suite 121", 
+    "description": "Description for Tenant 21.", 
+    "floorplan": "floorplans/floorplan_tenant21.png", 
+    "photo1": "images/tenant21_photo1.jpg", 
+    "photo2": "images/tenant21_photo2.jpg"
+  },
+  "Tenant22": {
+    "displayName": "Tenant 22", 
+    "location": "Suite 122", 
+    "description": "Description for Tenant 22.", 
+    "floorplan": "floorplans/floorplan_tenant22.png", 
+    "photo1": "images/tenant22_photo1.jpg", 
+    "photo2": "images/tenant22_photo2.jpg"
+  },
+  "Tenant23": {
+    "displayName": "Tenant 23", 
+    "location": "Suite 123", 
+    "description": "Description for Tenant 23.",
+    "floorplan": "floorplans/floorplan_tenant23.png", 
+    "photo1": "images/tenant23_photo1.jpg", 
+    "photo2": "images/tenant23_photo2.jpg"
+  },
+  "Tenant24": {
+    "displayName": "Tenant 24", 
+    "location": "Suite 124", 
+    "description": "Description for Tenant 24.", 
+    "floorplan": "floorplans/floorplan_tenant24.png",
+    "photo1": "images/tenant24_photo1.jpg", 
+    "photo2": "images/tenant24_photo2.jpg"
+  },
+  "Tenant25": {
+    "displayName": "Tenant 25", 
+    "location": "Suite 125", 
+    "description": "Description for Tenant 25.", 
+    "floorplan": "floorplans/floorplan_tenant25.png", 
+    "photo1": "images/tenant25_photo1.jpg", 
+    "photo2": "images/tenant25_photo2.jpg"
+  },
+  "Tenant26": {
+    "displayName": "Tenant 26", 
+    "location": "Suite 126", 
+    "description": "Description for Tenant 26.", 
+    "floorplan": "floorplans/floorplan_tenant26.png", 
+    "photo1": "images/tenant26_photo1.jpg", 
+    "photo2": "images/tenant26_photo2.jpg"
+  }
 }
