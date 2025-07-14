@@ -1,8 +1,8 @@
 <!-- tenants.json -->
 {
   "Tenant1": {
-    "displayName": "Tenant 1",
-    "location": "Suite 101, Ground Floor",
+    "displayName": "Photo Finale",
+    "location": "Suite 111 and 160, 2nd Floor",
     "description": "Description for Tenant 1.",
     "floorplan": "floorplans/floorplan_tenant1.png",
     "photo1": "images/tenant1_photo1.jpg",
