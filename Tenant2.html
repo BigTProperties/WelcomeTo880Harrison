@@ -42,6 +42,23 @@
     }
   </style>
 </head>
+  <script>
+  let inactivityTimeout;
+
+  function resetTimer() {
+    clearTimeout(inactivityTimeout);
+    inactivityTimeout = setTimeout(() => {
+      window.location.href = "index.html"; // go back to home
+    }, 3 * 60 * 1000); // 3 minutes
+  }
+
+  // Reset timer on any interaction
+  window.onload = resetTimer;
+  document.onmousemove = resetTimer;
+  document.onkeypress = resetTimer;
+  document.onclick = resetTimer;
+  document.ontouchstart = resetTimer;
+</script>
 <body>
   <h1>Ping Pong Room</h1>
   <p><strong>Location:</strong> Suite 128, Main Floor</p>
