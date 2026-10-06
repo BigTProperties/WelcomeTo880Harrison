@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talent Source 360</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.5em;
+    }
+    img {
+      max-width: 90%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+    button:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+  <script>
+  let inactivityTimeout;
+
+  function resetTimer() {
+    clearTimeout(inactivityTimeout);
+    inactivityTimeout = setTimeout(() => {
+      window.location.href = "index.html"; // go back to home
+    }, 3 * 60 * 1000); // 3 minutes
+  }
+
+  // Reset timer on any interaction
+  window.onload = resetTimer;
+  document.onmousemove = resetTimer;
+  document.onkeypress = resetTimer;
+  document.onclick = resetTimer;
+  document.ontouchstart = resetTimer;
+</script>
+<body>
+  <img src="images/zola.png" alt="Tenant Logo">
+  <h1>Talent Source 360</h1>
+  <p><strong>Location:</strong> Suite 164, Main Floor</p>
+  <p>From the Main Lobby, walk down the corridor, turn left and walk straight to Suite 138</p>
+
+  <h2>Floorplan</h2>
+  <img src="floorplans/Zola.png" alt="Tenant Floorplan">
+
+  <br />
+  <button onclick="window.location.href='index.html'">Back to Home</button>
+</body>
+</html>
